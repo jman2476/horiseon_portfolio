@@ -27,6 +27,7 @@ h3 {
     text-align: center;
 }
 
+/* Changed <div> with header class to a <header> object */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -43,6 +44,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Turned the list into nav elements */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -56,6 +58,7 @@ nav a {
     margin-left: 25px;
 }
 
+/* Changed footer class to a <footer> element */
 footer {
     padding: 30px;
     clear: both;
@@ -67,6 +70,7 @@ footer h2 {
     font-size: 20px;
 }
 
+/* Replaced .hero class with a <figure> element */
 figure {
     height: 800px;
     width: 100%;
@@ -76,12 +80,14 @@ figure {
     background-position: center;
 }
 
+/* Replaced the .content class with a <main> element */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Main paragraphs all had same properties, so they got lumped together here. Removed individual classes */
 main section {
     margin-bottom: 20px;
     padding: 50px;
@@ -91,10 +97,12 @@ main section {
     color: #ffffff;
 }
 
+/* Main section images all had same properties, so they got lumped together here */
 main section img {
     max-height: 200px;
 }
 
+/* right side content refactored to use <aside> element instead of .benefits class */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -106,11 +114,13 @@ aside {
     background-color: #2589bd;
 }
 
+/* Aside sections all had same properties, so they got lumped together here */
 aside section{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Aside image icons all had same properties, so they got lumped together here */
 aside section img {
     display: block;
     margin: 10px auto;
